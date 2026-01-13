@@ -5,414 +5,184 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="google-site-verification" content="hVezOlWZZiq6bTEm-jErjEidKNVZY_fZKj8080Py4vY" />
-  <title>Rahim Baig-Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-
-  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <title>Rahim Baig | Machine Learning Engineer</title>
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Poppins" rel="stylesheet">
 
-
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- Vendor CSS -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-
-  <!-- Template Main CSS File -->
+  <!-- Main CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+<!-- ======= HEADER ======= -->
+<header id="header" class="d-flex flex-column align-items-center bg-white border-end shadow-sm px-3"
+  style="width:260px;min-height:100vh;position:fixed;top:0;left:0;z-index:1030;">
 
-  <!-- ======= Header ======= -->
- <header id="header" class="d-flex flex-column align-items-center bg-white border-end shadow-sm px-3" style="width: 260px; min-height: 100vh; position: fixed; top: 0; left: 0; z-index: 1030;">
-  <!-- Profile Section -->
   <div class="profile text-center mt-4 bg-light rounded-4 p-3 shadow-sm">
-  <img src="assets/img/rb.jpg" alt="Rahim Baig" class="img-fluid rounded-circle border mb-3" style="width: 110px; height: 110px; object-fit: cover; border-color: #dee2e6;">
-  <h1 class="h5 fw-semibold mb-1"><a href="index.html" class="text-dark text-decoration-none">Rahim Baig</a></h1>
-  <p class="text-muted small mb-2">Data Analyst | ML Engineer</p>
-  <div class="social-links mt-2 d-flex justify-content-center gap-3">
-    <a href="https://github.com/rahimbaig28" target="_blank" class="text-secondary"><i class="bi bi-github fs-5"></i></a>
-    <a href="https://www.linkedin.com/in/rahimbaig/" target="_blank" class="text-primary"><i class="bi bi-linkedin fs-5"></i></a>
+    <img src="assets/img/rb.jpg" class="img-fluid rounded-circle mb-3" style="width:110px;height:110px;">
+    <h1 class="h5 fw-semibold mb-1">Rahim Baig</h1>
+    <p class="text-muted small mb-2">Machine Learning Engineer</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="https://github.com/rahimbaig28"><i class="bi bi-github fs-5"></i></a>
+      <a href="https://www.linkedin.com/in/rahimbaig/"><i class="bi bi-linkedin fs-5"></i></a>
+    </div>
   </div>
-</div>
+
+  <<!-- NAV LINKS (remove scrollto) -->
+<a class="nav-link active" href="#hero">Home</a>
+<a class="nav-link" href="#about">About</a>
+<a class="nav-link" href="#skills">Skills</a>
+<a class="nav-link" href="#resume">Experience</a>
+<a class="nav-link" href="#contact">Contact</a>
+
+<!-- DISABLE SMOOTH SCROLL -->
+<style>
+html { scroll-behavior: auto !important; }
+</style>
 
 
-  <!-- Navigation Menu -->
-  <nav id="navbar" class="nav-menu mt-5 w-100">
-    <ul class="nav flex-column text-center">
-      <li class="nav-item mb-3">
-        <a class="nav-link scrollto active text-dark fw-semibold" href="#hero"><i class="bi bi-house-door me-2"></i>Home</a>
-      </li>
-      <li class="nav-item mb-3">
-        <a class="nav-link scrollto text-dark fw-semibold" href="#about"><i class="bi bi-person-lines-fill me-2"></i>About</a>
-      </li>
-      <li class="nav-item mb-3">
-        <a class="nav-link scrollto text-dark fw-semibold" href="#skills"><i class="bi bi-bar-chart-line me-2"></i>Skills</a>
-      </li>
-      <li class="nav-item mb-3">
-        <a class="nav-link scrollto text-dark fw-semibold" href="#resume"><i class="bi bi-file-earmark-text me-2"></i>Resume</a>
-      </li>
-      <li class="nav-item mb-3">
-        <a class="nav-link scrollto text-dark fw-semibold" href="#contact"><i class="bi bi-envelope-open me-2"></i>Contact</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-  <!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Rahim Baig </h1>
-      <p>I'm <span class="typed" data-typed-items=" Data analyst"></span></p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about py-5 bg-light">
-      <div class="container">
-    
-        <div class="section-title text-center mb-5">
-          <h2 class="fw-bold">About Me</h2>
-          <p class="text-muted mx-auto" style="max-width: 800px;">
-            Passionate Data Analyst with over 3 years of hands-on experience in transforming data into actionable insights. 
-            Equipped with a Master's in Computer Science and currently pursuing a second Master’s in Business Analytics, I specialize in predictive modeling, machine learning, and interactive data visualizations using Python, SQL, and modern frameworks.
-          </p>
-        </div>
-    
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center mb-4 mb-lg-0" data-aos="fade-right">
-            <img src="assets/img/rb.jpg" class="img-fluid rounded-4 shadow" alt="Rahim Baig" style="max-height: 400px;">
-          </div>
-    
-          <div class="col-lg-8" data-aos="fade-left">
-            <h3 class="mb-3 fw-semibold">Professional Snapshot</h3>
-            <p class="fst-italic text-muted">
-              I bring analytical expertise to solve complex business problems and have worked cross-functionally to drive data-centric strategies.
-              My skill set spans machine learning, data visualization, and feature engineering. Currently enhancing my knowledge in generative AI, advanced analytics, and big data platforms.
-            </p>
-    
-            <div class="row g-4 mt-4" style="font-family: 'Segoe UI', sans-serif; font-size: 1rem;">
-              <div class="col-md-6">
-                <ul class="list-unstyled">
-                  <li><i class="bi bi-cake2-fill text-primary me-2"></i><strong>Birthday:</strong> <span class="text-muted">28 June 1999</span></li>
-                  
-                  <li>
-                    <a href="https://github.com/rahimbaig28" target="_blank" class="text-decoration-none text-dark">
-                      <i class="bi bi-github text-dark me-2"></i><strong>GitHub:</strong> <span class="text-muted">rahimbaig28</span>
-                    </a>
-                  </li>
-              
-                  <li>
-                    <a href="https://www.linkedin.com/in/rahim-baig-b81b322b4/" target="_blank" class="text-decoration-none text-dark">
-                      <i class="bi bi-linkedin text-primary me-2"></i><strong>LinkedIn:</strong> <span class="text-muted">Rahim Baig</span>
-                    </a>
-                  </li>
-              
-                  <li><i class="bi bi-telephone-fill text-success me-2"></i><strong>Phone:</strong> <span class="text-muted">+1 856-518-0851</span></li>
-                </ul>
-              </div>
-              
-              <div class="col-md-6">
-                <ul class="list-unstyled">
-                  <li><i class="bi bi-geo-alt-fill text-danger me-2"></i><strong>Location:</strong> <span class="text-muted">Glassboro, New Jersey</span></li>
-                  <li><i class="bi bi-mortarboard-fill text-warning me-2"></i><strong>Degrees:</strong> <span class="text-muted">M.S. in Computer Science & Business Analytics</span></li>
-                  <li><i class="bi bi-envelope-fill text-info me-2"></i><strong>Email:</strong> <span class="text-muted">rahimbaig00332211@gmail.com</span></li>
-                </ul>
-              </div>
-            </div>
-    
-            <div class="mt-4">
-              <p>
-                My toolbox includes <strong>Python, SQL, TensorFlow, Scikit-learn, Pandas, NumPy</strong>, and dashboarding with <strong>Power BI, Jupyter, Google Colab</strong>. 
-                I’ve also built scalable data workflows and automated analytics tasks. I'm actively working with cloud platforms like <strong>Snowflake</strong> to deliver efficient, cloud-native data solutions.
-              </p>
-            </div>
-          </div>
-        </div>
-    
-      </div>
-    </section>    
-    <!-- End About Section -->
-   
-
-    <!-- ======= Skills Section ======= -->
-   
-    <!-- SKILLS SECTION -->
-<section id="skills" class="skills-section py-5 bg-light">
-  <div class="container">
-
-    <div class="section-title text-center mb-5">
-      <h2 class="fw-bold">Skills</h2>
-      <p class="text-muted mx-auto" style="max-width: 700px;">
-        I specialize in transforming raw data into actionable insights. My skill set spans across programming,
-        analytics, and machine learning technologies to support data-driven decision-making and innovation.
-      </p>
-    </div>
-
-    <div class="row g-4 justify-content-center align-items-stretch">
-
-      <div class="col-lg-6 d-flex">
-        <div class="skills-card p-4 bg-white rounded-4 shadow-sm w-100">
-          <h5 class="fw-semibold mb-4">Core Technical Skills</h5>
-          <ul class="list-unstyled skills-list">
-            <li><strong>Python</strong><span class="stars">★★★★★</span></li>
-            <li><strong>SQL</strong><span class="stars">★★★★☆</span></li>
-            <li><strong>Data Analysis</strong><span class="stars">★★★★☆</span></li>
-            <li><strong>Data Science</strong><span class="stars">★★★★☆</span></li>
-            <li><strong>Machine Learning</strong><span class="stars">★★★½☆</span></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-6 d-flex">
-        <div class="skills-card p-4 bg-white rounded-4 shadow-sm w-100">
-          <h5 class="fw-semibold mb-4"><i class="bi bi-tools me-2"></i>Tools & Libraries</h5>
-          <ul class="list-unstyled skills-list">
-            <li><strong><i class="bi bi-bar-chart-fill me-2"></i>Power BI</strong><span class="stars">★★★★★</span></li>
-            <li><strong><i class="bi bi-bar-chart-line-fill me-2"></i>Data Visualization</strong><span class="stars">★★★★☆</span></li>
-            <li><strong><i class="bi bi-braces-asterisk me-2"></i>NumPy & Pandas</strong><span class="stars">★★★★☆</span></li>
-            <li><strong><i class="bi bi-lightning-fill me-2"></i>Scikit-learn</strong><span class="stars">★★★½☆</span></li>
-            <li><strong><i class="bi bi-layers-fill me-2"></i>TensorFlow</strong><span class="stars">★★★½☆</span></li>
-            <li><strong><i class="bi bi-display me-2"></i>Dashboards</strong><span class="stars">★★★★☆</span></li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
+<!-- ======= HERO ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <div class="hero-container" data-aos="fade-in">
+    <h1>Rahim Baig</h1>
+    <p>I'm <span class="typed" data-typed-items="Machine Learning Engineer, Data Scientist, Python Developer"></span></p>
   </div>
 </section>
 
-<!-- CUSTOM CSS -->
-<style>
-.skills-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
+<main id="main">
 
-.skills-list li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #eee;
-}
+<!-- ======= ABOUT ======= -->
+<section id="about" class="about py-5 bg-light">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h2>About Me</h2>
+      <p class="text-muted mx-auto" style="max-width:800px;">
+        Machine Learning Engineer with 4+ years of experience building scalable data pipelines,
+        predictive models, and production-ready ML systems. Strong background in Python, SQL,
+        feature engineering, and analytics with a passion for solving real-world problems using data.
+      </p>
+    </div>
 
-.skills-list .stars {
-  font-size: 1.2rem;
-  color: #ffc107;
-  font-family: Arial, sans-serif;
-}
-
-/* Replace text-based half-stars with actual visual */
-.skills-list .stars::after {
-  content: '';
-  display: inline-block;
-  width: 0.6em;
-  height: 1.2em;
-  background: linear-gradient(90deg, #ffc107 50%, #e4e5e9 50%);
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2L14.09 8.26L20.97 8.27L15.45 12.14L17.54 18.39L12 14.52L6.46 18.39L8.55 12.14L3.03 8.27L9.91 8.26L12 2Z' fill='black'/%3E%3C/svg%3E");
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  vertical-align: middle;
-  margin-left: -0.3em;
-}
-
-/* Optional: Responsive padding */
-@media (max-width: 767px) {
-  .skills-list li {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-</style>
-
-    
-    <!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume py-5 bg-light text-dark">
-      <div class="container">
-    
-        <div class="section-title text-center mb-5">
-          <h2 class="fw-bold">Resume</h2>
-          <p class="text-muted mx-auto" style="max-width: 800px;">
-            Experienced Data Analyst skilled in <strong>Python, SQL, TensorFlow, Scikit-learn, Pandas, and NumPy</strong>.
-            Adept at building predictive models, automating workflows, and crafting compelling visual reports to guide data-driven decisions.
-          </p>
-        </div>
-    
-        <div class="row g-5">
-          <!-- LEFT COLUMN -->
-          <div class="col-lg-6" data-aos="fade-right">
-            <!-- Summary -->
-            <div class="bg-white rounded-4 shadow-sm p-4">
-              <h5 class="fw-bold mb-3"><i class="bi bi-person-fill me-2 text-primary"></i>Summary</h5>
-              <h4>Rahim Baig</h4>
-              <p class="text-muted">
-                Detail-oriented and adaptable Data Analyst with 3+ years of experience in delivering actionable insights, predictive modeling, and process automation.
-                Skilled in communicating findings to diverse stakeholders and driving innovation across domains.
-              </p>
-              <ul class="list-unstyled">
-                <li><i class="bi bi-geo-alt-fill me-2 text-danger"></i>Glassboro, New Jersey</li>
-                <li><i class="bi bi-telephone-fill me-2 text-success"></i>+1 856-518-0851</li>
-                <li><i class="bi bi-envelope-fill me-2 text-info"></i>rahimbaig00332211@gmail.com</li>
-              </ul>
-            </div>
-    
-            <!-- Education -->
-            <!-- Education -->
-<div class="bg-white rounded-4 shadow-sm p-4 mt-4">
-  <h5 class="fw-bold mb-3"><i class="bi bi-mortarboard-fill me-2 text-warning"></i>Education</h5>
-
-  <h6 class="fw-semibold">M.S. in Business Analytics</h6>
-  <p class="text-muted mb-2">Avila University, Missouri</p>
-
-  <h6 class="fw-semibold">M.S. in Computer Science</h6>
-  <p class="text-muted mb-0">Rowan University, New Jersey</p>
-</div>
-
-    
-            <!-- Experience: Community Planning -->
-            <div class="bg-white rounded-4 shadow-sm p-4 mt-4">
-              <h5 class="fw-bold mb-3"><i class="bi bi-briefcase-fill me-2 text-primary"></i>Data Analyst</h5>
-              <h6>The Community Planning and Advocacy Council</h6>
-              <small class="text-muted">April 2025 – Present</small>
-              <ul class="mt-2">
-                <li>Developed dashboards to track public health & housing metrics for government agencies.</li>
-                <li>Automated weekly data pipelines using Python, saving 40% manual reporting effort.</li>
-                <li>Collaborated with non-profits to define KPIs and improve funding allocation strategies.</li>
-                <li>Used SQL, Power BI, and Pandas to clean and analyze diverse demographic datasets.</li>
-              </ul>
-            </div>
-    
-            <!-- Experience: Vastek Analyst -->
-            <div class="bg-white rounded-4 shadow-sm p-4 mt-4">
-              <h5 class="fw-bold mb-3">Data Analyst Trainee</h5>
-              <h6>Vastek Inc</h6>
-              <small class="text-muted">July 2023 – August 2024</small>
-              <ul class="mt-2">
-                <li>Created Excel and Power BI dashboards to streamline decision-making across teams.</li>
-                <li>Used Python to automate monthly reporting workflows, reducing manual input by 50%.</li>
-                <li>Supported marketing analytics and customer retention studies using statistical techniques.</li>
-              </ul>
-            </div>
-          </div>
-    
-          <!-- RIGHT COLUMN -->
-          <div class="col-lg-6" data-aos="fade-left">
-            <!-- Experience: ML Engineer -->
-            <div class="bg-white rounded-4 shadow-sm p-4">
-              <h5 class="fw-bold mb-3"><i class="bi bi-cpu-fill me-2 text-success"></i>Machine Learning Engineer</h5>
-              <h6>Innovative Technologies</h6>
-              <small class="text-muted">Aug 2020 – Dec 2021</small>
-              <ul class="mt-2">
-                <li>Built and tuned ML models using TensorFlow and Scikit-learn, improving accuracy by 15%.</li>
-                <li>Performed feature engineering and data preprocessing on real-world datasets.</li>
-                <li>Led hyperparameter tuning and model evaluation initiatives using GridSearchCV.</li>
-              </ul>
-            </div>
-    
-            <!-- Experience: ML Intern -->
-            <div class="bg-white rounded-4 shadow-sm p-4 mt-4">
-              <h5 class="fw-bold mb-3">Machine Learning Intern</h5>
-              <h6>Innovative Technologies</h6>
-              <small class="text-muted">Jan 2020 – July 2020</small>
-              <ul class="mt-2">
-                <li>Built small-scale ML solutions using Scikit-learn and PyTorch for prototype projects.</li>
-                <li>Cleaned and processed data using Pandas and NumPy to ensure model integrity.</li>
-                <li>Worked with senior engineers on algorithm optimization and result documentation.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-center">
+        <img src="assets/img/rb.jpg" class="img-fluid rounded-4 shadow" style="max-height:380px;">
       </div>
-    </section>
-    
-   
-    <!-- End Resume Section -->
 
+      <div class="col-lg-8">
+        <h3>Professional Snapshot</h3>
+        <p class="fst-italic text-muted">
+          I design, build, and deploy machine learning and analytics systems end-to-end.
+          My experience includes feature pipelines, model training & evaluation,
+          automation, and close collaboration with product and engineering teams.
+        </p>
 
+        <p>
+          Tech Stack: <strong>Python, SQL, Pandas, NumPy, Scikit-learn, TensorFlow,
+          Power BI, Snowflake</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- ======= Contact Section ======= -->
-    <div class="bg-light rounded-4 p-4 shadow-sm mt-5">
-      <h5 class="fw-semibold mb-3"><i class="bi bi-clock-history me-2 text-warning"></i>Availability</h5>
-      <ul class="list-unstyled text-muted">
-        <li><strong>Mon - Fri:</strong> 9 AM – 6 PM (EST)</li>
-        <li><strong>Sat - Sun:</strong> Available upon request</li>
-        <li><strong>Timezone:</strong> Eastern (New Jersey, USA)</li>
+<!-- ======= EXPERIENCE ======= -->
+<section id="resume" class="py-5 bg-light">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h2>Experience</h2>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow mb-4">
+      <h5>Machine Learning & Data Engineer — CPAC</h5>
+      <small>Apr 2025 – Present</small>
+      <ul>
+        <li>Built feature pipelines on 5M+ records using Python and SQL.</li>
+        <li>Developed forecasting and utilization models.</li>
+        <li>Productionized analytics workflows with automation.</li>
       </ul>
     </div>
-    
-    <!-- End Contact Section -->
 
-  </main><!-- End #main -->
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        <!-- &copy; Copyright <strong><span>Sunny</span></strong> -->
-        Copyright © 2024 <strong>Rahim Baig.</strong>
-        <p> All rights reserved.</p>
+    <div class="bg-white p-4 rounded shadow mb-4">
+      <h5>Machine Learning Engineer — Vastek Inc</h5>
+      <small>Jul 2023 – Aug 2024</small>
+      <ul>
+        <li>Designed and deployed ML models for segmentation and forecasting.</li>
+        <li>Owned full ML lifecycle from training to monitoring.</li>
+        <li>Built scalable data pipelines.</li>
+      </ul>
+    </div>
+
+    <div class="bg-white p-4 rounded shadow">
+      <h5>Machine Learning Engineer — Innovative Technologies</h5>
+      <small>Aug 2020 – Dec 2021</small>
+      <ul>
+        <li>Feature engineering and model tuning.</li>
+        <li>Automated analytics workflows.</li>
+        <li>Deployed ML solutions in production.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ======= SKILLS ======= -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <div class="section-title text-center mb-5">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <ul class="list-group shadow-sm">
+          <li class="list-group-item">Python (Advanced)</li>
+          <li class="list-group-item">SQL</li>
+          <li class="list-group-item">Machine Learning</li>
+          <li class="list-group-item">Feature Engineering</li>
+          <li class="list-group-item">Model Evaluation</li>
+        </ul>
       </div>
-      <div class="credits">
-        Designed by Rahim Baig
+      <div class="col-md-6">
+        <ul class="list-group shadow-sm">
+          <li class="list-group-item">Pandas / NumPy</li>
+          <li class="list-group-item">Scikit-learn</li>
+          <li class="list-group-item">TensorFlow</li>
+          <li class="list-group-item">Power BI</li>
+          <li class="list-group-item">Snowflake</li>
+        </ul>
       </div>
     </div>
-  </footer>
-  <!-- End  Footer -->
+  </div>
+</section>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+<!-- ======= CONTACT ======= -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2>Contact</h2>
+    <p>Email: rahimbaig00332211@gmail.com</p>
+    <p>Location: New Jersey, USA</p>
+  </div>
+</section>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+</main>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+<!-- ======= FOOTER ======= -->
+<footer class="text-center py-3">
+  <p>© 2024 Rahim Baig</p>
+</footer>
 
-
+<!-- Vendor JS -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/typed.js/typed.umd.js"></script>
+<script>AOS.init();</script>
 
 </body>
-
 </html>
